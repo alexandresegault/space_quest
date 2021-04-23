@@ -1,0 +1,22 @@
+#:import menu menu
+
+
+MainWidget:
+
+<MainWidget>:
+    canvas.before:
+        Rectangle:
+            size: self.size
+            source: 'assets/images/bg1.jpg'
+    menu_widget: menu_widget
+    perspective_point_x: self.width/2
+    perspective_point_y: self.height * 0.75
+    MenuWidget:
+        id: menu_widget
+    Label:
+        font_size: dp(30)
+        font_name: 'assets/fonts/Eurostile.ttf'
+        text: root.score_txt
+        pos_hint: {"x": 0, "top": 1}
+        size_hint: .2, .1
+
