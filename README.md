@@ -1,5 +1,7 @@
 # Welcome to Space Quest 🚀🚀🚀
 
+<img src='https://github.com/alexandresegault/space_quest/blob/master/Animation.gif'>
+
 ### A game coded in Python 🐍🐍🐍 and the framework Kivy
 </br>
 </br>
